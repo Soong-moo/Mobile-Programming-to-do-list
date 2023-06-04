@@ -10,7 +10,7 @@ const ChatbotScreen = () => {
   const reply = async (text) => {
   
     const prompt = text;
-    const apiKey = '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';
+    const apiKey = 'API-KEY';
     const url = 'https://api.openai.com/v1/engines/text-davinci-003/completions';
 
     const headers = {
